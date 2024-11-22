@@ -1,0 +1,150 @@
+ 1  login too ec2 instances used it                             #also used ubuntu terminal
+    2  adduser user1,user2,user3
+    3  adduser {user1,user2,user3}
+    4  adduser user1 user2 user3
+    5  adduser user1 
+    6  adduser user2
+    7  user3
+    8  adduser user3
+    9  groupadd devops
+   10  groupadd aws
+   11  cat /etc/group
+   12  usermod -a -G devops user2 user3
+   13  usermod -a -G devops user2user3
+   14  usermod -a -G devops user2
+   15  usermod -a -G devops user3
+   16  id user2
+   17  usermod -a -G aws user1
+   18  id user1
+   19  cat /etc/group
+   20  cd /
+   21  mkdir home
+   22  cd /home
+   23  ls
+   24  cd /
+   25  ls
+   26  /root
+   27  cd /root
+   28  ls
+   29  cd /
+   30  ls
+   31  mkdir dir{1..8}
+   32  mkdir f{1..2}
+   33  mkdir opt
+   34  ls
+   35  cd dir1
+   36  mkdir f1
+   37  cd /
+   38  cd dir2
+   39  cp dir{1..2} dir2
+   40  cp dir{1..2}  /dir2
+   41  cp dir{1..2}/   /dir2
+   42  mkdir dir1
+   43  mkdir dir2
+   44  rmdir dir2
+   45  cd dir1
+   46  mkdir dir2
+   47  cd dir2
+   48  mkdir dir10 
+   49  mkfir f3
+   50  mkdir f3
+   51  cd../../../
+   52  cd ../../..
+   53  cd dir3
+   54  mkdir dir11
+   55  cd /
+   56  cd dir4
+   57  mkdir dir12
+   58  cd dir12
+   59  mkdir f5
+   60  mkdir f4
+   61  cd ../../
+   62  cd dir5
+   63  mkdir dir13
+   64  cd /
+   65  cd dir7
+   66  mkdir dir10
+   67  mkdir f3
+   68  cd /
+   69  cd dir8
+   70  mkdir 9
+   71  rmdir 9
+   72  mkdir dir9
+   73  cd /
+   74  cd opt/
+   75  mkdir dir14
+   76  cd dir14
+   77  mkdir dir10
+   78  mkdir f3
+   79  cd /
+   80  chgrp devops dir1                       .............change group
+   81  chgrp devops  /dir7/dir10
+   82  chgrp devops  /f2
+   83  chown devops d                        
+   84  chown :devops dir1                       ...........change ownership
+   85  chown :devops /dir7/dir10
+   86  chown :devops f2/
+   87  ls -l
+   88  cd dir7
+   89  ls -l
+   90  cd /
+   91  chown user1 f1/
+   92  chown user1 dir1/
+   93  chown user1 dir7/dir10
+   94  chown user1 f2
+   95  su user1
+   96  visudo
+   97  su user1
+   98  cd /
+   99  find / -name f3
+  100  wc -l
+  101  wc
+  102  wc -l /
+  103  tail /etc/password
+  104  sudo tail /etc/password
+  105  sudo tail /etc/
+  106  sudo tail /etc
+  107  ls
+  108  cd /
+  109  sudo tail /etc/password
+  110  sudo tail /etc/
+  111  sudo tail /etc
+  112  ls
+  113  cd /etc
+  114  ls
+  115  nano password
+  116  cd ..
+  117  clear
+  118  df -h
+  119  lsblk
+  120  ls
+  121  cd data
+  122  mkdir data
+  123  mount dev/xvdbf /data
+  124  mkfs.ext4
+  125  mkfs.ext4 dev/xvdbf
+  126  mount dev/xvdbf /data
+  127  df -h
+  128  touch /data/f1
+  129  sudo su user5
+  130  deluser user1
+  131  deluser user2
+  132  deluser user3
+  133  deluser user4
+  134  deluser user5
+  135  delgroup app
+  136  delgroup aws
+  137  delgroup database
+  138  delgroup devops
+  139  ls
+  140  cd home
+  141  ls
+  142  cd user1
+  143  ls
+  144  ll
+  145  cd ../..
+  146  umount dev/xvdbf /data
+  147  df -h
+  148  rm -rf /data
+  149  clear
+  150  history
